@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="color-scheme" content="light">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portofolio Meta Ads</title>
+<style>
+:root{
+  --bg:#ffffff; --ink:#0e2a3a; --muted:#4f6b7a; --card:#ffffff; --line:#d3ecee;
+  --blue:#3b82f6; --tosca:#14b8a6; --ph1:#cfe6f7; --ph2:#c4f1ea;
+  --g1:rgba(125,190,255,.35); --g2:rgba(94,234,212,.35);
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{
+  margin:0; color:var(--ink); font-family:"Poppins","Segoe UI",Arial,sans-serif; line-height:1.5;
+  background:
+    radial-gradient(circle at 100% 0%, #b9e9f7 0%, #c8f5ee 18%, rgba(255,255,255,0) 45%),
+    radial-gradient(circle at 0% 100%, #c8f5ee 0%, #cfe4ff 18%, rgba(255,255,255,0) 45%),
+    #ffffff;
+  background-repeat:no-repeat; background-attachment:fixed;
+}
+main{max-width:1000px;margin:0 auto;padding:40px 20px 72px}
+section{margin-bottom:56px}
+h2{
+  font-size:1.35rem;margin:0 0 20px;font-weight:700;display:inline-block;
+  padding-bottom:6px;border-bottom:3px solid transparent;
+  border-image:linear-gradient(90deg,var(--blue),var(--tosca)) 1;
+}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.item{margin:0}
+.ph{
+  aspect-ratio:3/4;border-radius:14px;border:1px solid var(--line);
+  background:var(--c,#cfe6f7);color:#0e2a3a;
+  display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:.8rem;
+}
+.ph.wide{aspect-ratio:3/4}
+figcaption{margin-top:10px;font-size:.88rem;color:var(--muted);min-height:1.4em}
+figcaption b{color:var(--ink);font-weight:600;display:block}
+.tag{
+  display:inline-block;font-size:.78rem;font-weight:600;color:#fff;padding:3px 10px;border-radius:99px;
+  background:linear-gradient(90deg,var(--blue),var(--tosca));
+}
+@media (max-width:760px){.grid{grid-template-columns:repeat(2,1fr);gap:14px}main{padding-top:28px}}
+.grid .item:nth-child(4n+1) .ph{--c:#bfdcff}
+.grid .item:nth-child(4n+2) .ph{--c:#b5f0e4}
+.grid .item:nth-child(4n+3) .ph{--c:#ffd9c7}
+.grid .item:nth-child(4n+4) .ph{--c:#e3d4ff}
+section:nth-of-type(even) .item:nth-child(4n+1) .ph{--c:#fff1b8}
+section:nth-of-type(even) .item:nth-child(4n+2) .ph{--c:#ffc9dc}
+section:nth-of-type(even) .item:nth-child(4n+3) .ph{--c:#c9f0b8}
+section:nth-of-type(even) .item:nth-child(4n+4) .ph{--c:#b8e6f5}
+.hero{display:flex;align-items:center;gap:28px;margin-bottom:64px}
+.avatar{flex:none;width:150px;height:150px;border-radius:50%;padding:5px;background:linear-gradient(135deg,var(--blue),var(--tosca))}
+.avatar div{width:100%;height:100%;border-radius:50%;background:#e8f7fa;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:.8rem;text-align:center}
+.hero p{margin:0;font-size:1.15rem;max-width:34em}
+.hero b{font-weight:700}
+.about{margin-top:24px;padding:32px;border-radius:20px;border:1px solid var(--line);background:rgba(255,255,255,.85)}
+.about h2{margin-bottom:14px}
+.about p{margin:0 0 14px;max-width:62ch;color:var(--muted)}
+.facts{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 18px;padding:0;list-style:none}
+.facts li{padding:6px 14px;border-radius:99px;background:#e6f6f8;font-size:.88rem;font-weight:600}
+@media (max-width:760px){.hero{flex-direction:column;text-align:center}}
+</style>
+</head>
+<body>
+<main>
+
+<header class="hero">
+  <div class="avatar"><div>Foto Wisnu</div></div>
+  <p>Halo, saya <b>Wisnu</b>, advertiser Meta Ads berpengalaman 4 tahun di agency digital marketing. Ini adalah sebagian hasil kerja saya.</p>
+</header>
+
+<section>
+  <h2>Produk pernah diiklankan</h2>
+  <div class="grid">
+    <figure class="item"><div class="ph">Foto produk</div><figcaption><span class="tag">Funnel: landing page → WhatsApp</span></figcaption></figure>
+    <figure class="item"><div class="ph">Foto produk</div><figcaption><span class="tag">Funnel: landing page → WhatsApp</span></figcaption></figure>
+    <figure class="item"><div class="ph">Foto produk</div><figcaption><span class="tag">Funnel: landing page → form → payment</span></figcaption></figure>
+    <figure class="item"><div class="ph">Foto produk</div><figcaption></figcaption></figure>
+  </div>
+</section>
+
+<section>
+  <h2>Event terbesar yang saya iklankan</h2>
+  <div class="grid">
+    <figure class="item"><div class="ph">Gambar event</div></figure>
+    <figure class="item"><div class="ph">Gambar event</div></figure>
+    <figure class="item"><div class="ph">Gambar event</div></figure>
+    <figure class="item"><div class="ph">Gambar event</div></figure>
+  </div>
+</section>
+
+<section>
+  <h2>Landing page pernah saya buat</h2>
+  <div class="grid">
+    <figure class="item"><div class="ph">Screenshot</div></figure>
+    <figure class="item"><div class="ph">Screenshot</div></figure>
+    <figure class="item"><div class="ph">Screenshot</div></figure>
+    <figure class="item"><div class="ph">Screenshot</div></figure>
+  </div>
+</section>
+
+<section>
+  <h2>Video</h2>
+  <div class="grid">
+    <figure class="item"><div class="ph">Video</div><figcaption><b>My role:</b>Script writer, video editor</figcaption></figure>
+    <figure class="item"><div class="ph">Video</div><figcaption><b>My role:</b>Script writer</figcaption></figure>
+    <figure class="item"><div class="ph">Video</div><figcaption><b>My role:</b>Script writer</figcaption></figure>
+    <figure class="item"><div class="ph">Video</div><figcaption></figcaption></figure>
+  </div>
+</section>
+
+<section>
+  <h2>Poster, dibuat dengan AI</h2>
+  <div class="grid">
+    <figure class="item"><div class="ph">Poster</div></figure>
+    <figure class="item"><div class="ph">Poster</div></figure>
+    <figure class="item"><div class="ph">Poster</div></figure>
+    <figure class="item"><div class="ph">Poster</div></figure>
+  </div>
+</section>
+
+<section class="about">
+  <h2>Tentang Wisnu</h2>
+  <ul class="facts"><li>Usia: 27 tahun</li><li>Pengalaman: 4 tahun Meta Ads</li><li>Agency digital marketing</li></ul>
+  <p>Saya Wisnu, advertiser Meta Ads yang sehari-hari menangani iklan untuk berbagai produk dan event, mulai dari riset audiens, strategi funnel, sampai optimasi hasil iklan. Saya terbiasa membangun funnel lengkap: landing page yang mengarah ke WhatsApp, atau ke form lalu pembayaran.</p>
+  <p>Selain mengatur iklan, saya juga membuat landing page, menulis script dan mengedit video untuk materi iklan, serta membuat poster dengan bantuan AI. Dengan begitu satu kampanye bisa saya tangani dari ide kreatif sampai laporan hasil.</p>
+  <p>Tertarik bekerja sama? Hubungi saya lewat WhatsApp atau email untuk berdiskusi tentang kebutuhan iklan Anda.</p>
+</section>
+
+</main>
+</body>
+</html>
