@@ -31,6 +31,7 @@ h2{
   border-image:linear-gradient(90deg,var(--blue),var(--tosca)) 1;
 }
 .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.grid.five{grid-template-columns:repeat(5,1fr);gap:16px}
 .item{margin:0}
 .ph{
   aspect-ratio:3/4;border-radius:14px;border:1px solid var(--line);
@@ -38,13 +39,23 @@ h2{
   display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:.8rem;
 }
 .ph.wide{aspect-ratio:3/4}
+.five .ph{aspect-ratio:1/1;flex-direction:column;gap:4px;text-align:center;padding:8px;transition:transform .15s}
+.five a.ph{text-decoration:none}
+.five a.ph:hover,.five a.ph:focus-visible{transform:translateY(-3px);outline:2px solid var(--blue);outline-offset:2px}
+.five .ph strong{color:var(--ink);font-size:.82rem;word-break:break-all}
 figcaption{margin-top:10px;font-size:.88rem;color:var(--muted);min-height:1.4em}
 figcaption b{color:var(--ink);font-weight:600;display:block}
+.five figcaption{font-size:1rem;line-height:1.45}
+.five figcaption b{font-size:1rem}
+.five .url{display:block;margin-bottom:8px;font-size:.78rem;color:var(--blue);word-break:break-all;text-decoration:none}
+.five .url:hover{text-decoration:underline}
+.rect .ph{aspect-ratio:4/3}
+.rect .ph span{font-weight:600}
 .tag{
   display:inline-block;font-size:.78rem;font-weight:600;color:#fff;padding:3px 10px;border-radius:99px;
   background:linear-gradient(90deg,var(--blue),var(--tosca));
 }
-@media (max-width:760px){.grid{grid-template-columns:repeat(2,1fr);gap:14px}main{padding-top:28px}}
+@media (max-width:760px){.grid{grid-template-columns:repeat(2,1fr);gap:14px}.grid.five{grid-template-columns:repeat(2,1fr)}main{padding-top:28px}}
 .grid .item:nth-child(4n+1) .ph{--c:#bfdcff}
 .grid .item:nth-child(4n+2) .ph{--c:#b5f0e4}
 .grid .item:nth-child(4n+3) .ph{--c:#ffd9c7}
@@ -85,6 +96,16 @@ section:nth-of-type(even) .item:nth-child(4n+4) .ph{--c:#b8e6f5}
 </section>
 
 <section>
+  <h2>Jadi Pemateri Kelas Online Zoom Facebook Ads 2023 2024 2025 2026</h2>
+  <div class="grid rect">
+    <figure class="item"><div class="ph"><span>Foto kelas 2023</span></div></figure>
+    <figure class="item"><div class="ph"><span>Foto kelas 2024</span></div></figure>
+    <figure class="item"><div class="ph"><span>Foto kelas 2025</span></div></figure>
+    <figure class="item"><div class="ph"><span>Foto kelas 2026</span></div></figure>
+  </div>
+</section>
+
+<section>
   <h2>Event terbesar yang saya iklankan</h2>
   <div class="grid">
     <figure class="item"><div class="ph">Gambar event</div></figure>
@@ -96,11 +117,12 @@ section:nth-of-type(even) .item:nth-child(4n+4) .ph{--c:#b8e6f5}
 
 <section>
   <h2>Landing page pernah saya buat</h2>
-  <div class="grid">
-    <figure class="item"><div class="ph">Screenshot</div></figure>
-    <figure class="item"><div class="ph">Screenshot</div></figure>
-    <figure class="item"><div class="ph">Screenshot</div></figure>
-    <figure class="item"><div class="ph">Screenshot</div></figure>
+  <div class="grid five">
+    <figure class="item"><a class="ph" href="https://workshop-beta-azure.vercel.app/" target="_blank" rel="noopener"><span>Screenshot</span><strong>workshop-beta-azure</strong></a><figcaption><a class="url" href="https://workshop-beta-azure.vercel.app/" target="_blank" rel="noopener">https://workshop-beta-azure.vercel.app/</a><b>Code in:</b>HTML<b>Hosted in:</b>scalev.id</figcaption></figure>
+    <figure class="item"><a class="ph" href="https://jagoancs.vercel.app/" target="_blank" rel="noopener"><span>Screenshot</span><strong>jagoancs</strong></a><figcaption><a class="url" href="https://jagoancs.vercel.app/" target="_blank" rel="noopener">https://jagoancs.vercel.app/</a><b>Code in:</b>HTML<b>Hosted in:</b>scalev.id</figcaption></figure>
+    <figure class="item"><a class="ph" href="https://socmeddfunel.vercel.app/" target="_blank" rel="noopener"><span>Screenshot</span><strong>socmeddfunel</strong></a><figcaption><a class="url" href="https://socmeddfunel.vercel.app/" target="_blank" rel="noopener">https://socmeddfunel.vercel.app/</a><b>Code in:</b>HTML<b>Hosted in:</b>scalev.id</figcaption></figure>
+    <figure class="item"><a class="ph" href="https://instads-eight.vercel.app/" target="_blank" rel="noopener"><span>Screenshot</span><strong>instads-eight</strong></a><figcaption><a class="url" href="https://instads-eight.vercel.app/" target="_blank" rel="noopener">https://instads-eight.vercel.app/</a><b>Code in:</b>HTML<b>Hosted in:</b>scalev.id</figcaption></figure>
+    <figure class="item"><a class="ph" href="https://bisnisonsummit.vercel.app" target="_blank" rel="noopener"><span>Screenshot</span><strong>bisnisonsummit</strong></a><figcaption><a class="url" href="https://bisnisonsummit.vercel.app" target="_blank" rel="noopener">https://bisnisonsummit.vercel.app</a><b>Code in:</b>HTML<b>Hosted in:</b>scalev.id</figcaption></figure>
   </div>
 </section>
 
